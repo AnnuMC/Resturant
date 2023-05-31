@@ -8,7 +8,7 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import Logo from "../../images/logo.svg";
+import Logo from "../../images/Lemon.jpg";
 
 import MenuIcon from "@mui/icons-material/Menu";
 import { NavLink } from "react-router-dom";
@@ -24,11 +24,11 @@ const Header = () => {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography
         color={"goldenrod"}
-        variant="h6"
+        variant="h1"
         component="div"
         sx={{ flexGrow: 1, my: 2 }}
       >
-        <img src={Logo} alt="logo" height={"70"} width="200" />
+        <img src={Logo} alt="logo" height={"20"} width="70" />
       </Typography>
       <Divider />
       <ul className="mobile-navigation">
@@ -44,7 +44,7 @@ const Header = () => {
           <NavLink to={"/about"}>About</NavLink>
         </li>
         <li>
-          <NavLink to={"/contact"}>Contact</NavLink>
+          <NavLink to={"/reserve"}>Contact</NavLink>
         </li>
       </ul>
     </Box>
@@ -52,7 +52,7 @@ const Header = () => {
   return (
     <>
       <Box>
-        <AppBar component={"nav"} sx={{ bgcolor: "black" }}>
+        <AppBar component={"nav"} sx={{ bgcolor: "Black" }}>
           <Toolbar>
             <IconButton
               color="inherit"
@@ -72,7 +72,7 @@ const Header = () => {
               component="div"
               sx={{ flexGrow: 1 }}
             >
-              <img src={Logo} alt="logo" height={"70"} width="250" />
+              <img src={Logo} alt="logo" height={"70"} width="80"/>
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation-menu">
@@ -88,7 +88,7 @@ const Header = () => {
                   <NavLink to={"/about"}>About</NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/contact"}>Contact</NavLink>
+                  <NavLink to={"/reserve"}>Reserve</NavLink>
                 </li>
               </ul>
             </Box>

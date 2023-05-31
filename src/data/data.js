@@ -7,44 +7,44 @@ import Gujrati from "../images/gujrati.jpeg";
 
 export const MenuList = [
   {
-    name: "Dosa",
+    name: "Chinese Cuisine",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+      " Traditionally, Chinese food is served with noodles or rice. Most Chinese dishes contain a mixture of vegetables that are stir-fried and combined with aromatic spices and herbs.",
     image: Dosa,
     price: 200,
   },
   {
-    name: "Chola",
+    name: "Italian Cuisine",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+      "Pasta, rice, tomatoes, and cheese are the fundamental ingredients of well-known Italian cuisine",
     image: Chola,
     price: 250,
   },
   {
-    name: "Idli Sambhar",
+    name: "Thai Cuisine",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+      "Sweet, sour, and hot ingredients combine to create Thai food’s intensely spicy flavours. The best Thai cuisine includes meals like pad thai, green curry, and tom yum goong. In addition, Thai cuisine typically includes rice or noodles",
     image: Idli,
     price: 300,
   },
   {
-    name: "Masala Dosa",
+    name: "French Cuisine",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+      "French cuisine uses butter, cream, wine, herbs, chocolate, and vegetables. In addition, French pastries, cheese, bread, and wine are well-known worldwide.",
     image: MasalaDosa,
     price: 100,
   },
   {
-    name: "Paneer",
+    name: "Indian Cuisine",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+      "Indian cuisine typically ranks first when it comes to hot, flavorful foods. A wide variety of spices, chiles, and herbs creates some of the world’s spiciest cuisines.",
     image: Paneer,
     price: 400,
   },
   {
-    name: "Gujrati",
+    name: "Mexican Cuisine",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+      " Tacos, enchiladas, tortillas, nachos, and quesadillas are now common dishes in many countries around the world.Ethnic Mexican food can include grilled goat, meat with eggs, exotic fruits, and hot spicy dishes.",
     image: Gujrati,
     price: 500,
   },
